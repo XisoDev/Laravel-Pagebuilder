@@ -1,13 +1,17 @@
 {
-    "name": "hansschouten/laravel-pagebuilder",
-    "description": "A drag and drop pagebuilder to manage pages in any Laravel project.",
+    "name": "xisodev/laravel-pagebuilder",
+    "description": "드래그 앤 드롭을 활용한 AMUZCMS 전용 페이지빌더입니다.",
     "keywords": [
         "laravel",
         "pagebuilder"
     ],
-    "homepage": "https://github.com/HansSchouten/Laravel-Pagebuilder",
+    "homepage": "https://github.com/XisoDev/Laravel-Pagebuilder",
     "license": "MIT",
     "authors": [
+        {
+            "name": "xiso",
+            "email": "xiso@amuz.co.kr"
+        },
         {
             "name": "Hans Schouten",
             "email": "hans@falcosolutions.nl"
@@ -27,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HansSchouten\\LaravelPageBuilder\\ServiceProvider"
+                "XisoDev\\LaravelPageBuilder\\ServiceProvider"
             ],
             "aliases": {
-                "PageBuilder": "HansSchouten\\LaravelPageBuilder\\Facade"
+                "PageBuilder": "XisoDev\\LaravelPageBuilder\\Facade"
             }
         }
     }
