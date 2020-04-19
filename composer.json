@@ -19,11 +19,11 @@
     ],
     "require": {
         "php": ">=7.0",
-        "hansschouten/phpagebuilder": "^0.8"
+        "XisoDev/phpagebuilder": "^0.8"
     },
     "autoload": {
         "psr-4": {
-            "HansSchouten\\LaravelPageBuilder\\": "src/"
+            "XisoDev\\LaravelPageBuilder\\": "src/"
         }
     },
     "minimum-stability": "dev",

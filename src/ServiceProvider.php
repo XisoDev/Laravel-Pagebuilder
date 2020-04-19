@@ -1,8 +1,8 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder;
+namespace XisoDev\LaravelPageBuilder;
 
-use HansSchouten\LaravelPageBuilder\Commands\CreateTheme;
+use XisoDev\LaravelPageBuilder\Commands\CreateTheme;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
