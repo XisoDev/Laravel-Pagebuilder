@@ -11,7 +11,7 @@ return [
      */
     'general' => [
         'base_url' => env('APP_URL'),
-        'language' => 'en',
+        'language' => 'ko',
         'assets_url' => '/assets',
         'uploads_url' => '/uploads'
     ],
@@ -34,7 +34,7 @@ return [
             'password'  => env('DB_PASSWORD'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => 'pagebuilder__',
+            'prefix'    => env('DB_TABLE_PREFIX','amuz_'),
         ],
         'uploads_folder' => storage_path('app/pagebuilder/uploads')
     ],

@@ -13,7 +13,7 @@ class CreateUploadsTable extends Migration
      */
     public function up()
     {
-        Schema::create(config('pagebuilder.storage.database.prefix') . 'uploads', function (Blueprint $table) {
+        Schema::create('pagebuilder_uploads', function (Blueprint $table) {
             $table->increments('id');
             $table->string('public_id', 50)->unique();
             $table->string('original_file', 512);
@@ -30,6 +30,6 @@ class CreateUploadsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(config('pagebuilder.storage.database.prefix') . 'uploads');
+        Schema::dropIfExists('pagebuilder_uploads');
     }
 }

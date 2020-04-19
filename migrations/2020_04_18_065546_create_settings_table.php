@@ -13,7 +13,7 @@ class CreateSettingsTable extends Migration
      */
     public function up()
     {
-        Schema::create(config('pagebuilder.storage.database.prefix') . 'settings', function (Blueprint $table) {
+        Schema::create('pagebuilder_settings', function (Blueprint $table) {
             $table->increments('id');
             $table->string('setting', 50)->unique();
             $table->mediumText('value');
@@ -29,6 +29,6 @@ class CreateSettingsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(config('pagebuilder.storage.database.prefix') . 'settings');
+        Schema::dropIfExists('pagebuilder_settings');
     }
 }

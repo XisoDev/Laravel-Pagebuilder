@@ -21,4 +21,4 @@ Next, you need to create a theme:
 
 Now you are able to login via `/admin` with `admin` and `changethispassword` (the admin URL and credentials can be changed in the pagebuilder config file).
 
-Visit the [PHPageBuilder repository](https://github.com/XisoDev/PHPagebuilder#create-a-theme) for detailed information on how to develop themes.
+Visit the [PHPageBuilder repository](https://github.com/HansSchouten/PHPagebuilder#create-a-theme) for detailed information on how to develop themes.

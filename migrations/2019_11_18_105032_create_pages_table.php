@@ -13,7 +13,7 @@ class CreatePagesTable extends Migration
      */
     public function up()
     {
-        Schema::create(config('pagebuilder.storage.database.prefix') . 'pages', function (Blueprint $table) {
+        Schema::create('pagebuilder_pages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 256);
             $table->string('title', 256);
@@ -31,6 +31,6 @@ class CreatePagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(config('pagebuilder.storage.database.prefix') . 'pages');
+        Schema::dropIfExists('pagebuilder_pages');
     }
 }
