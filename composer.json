@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "XisoDev/phpagebuilder": "^0.8"
+        "xisodev/phpagebuilder": "^0.8"
     },
     "autoload": {
         "psr-4": {
