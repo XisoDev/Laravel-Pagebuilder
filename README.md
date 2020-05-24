@@ -19,6 +19,9 @@ Next, you need to create a theme:
 .. or publish the demo theme:
 - `php artisan vendor:publish --provider="XisoDev\LaravelPageBuilder\ServiceProvider" --tag=demo-theme`
 
+copy assets:
+- `php artisan vendor:publish --provider="XisoDev\LaravelPageBuilder\ServiceProvider" --tag=public`
+
 Now you are able to login via `/admin` with `admin` and `changethispassword` (the admin URL and credentials can be changed in the pagebuilder config file).
 
 Visit the [PHPageBuilder repository](https://github.com/HansSchouten/PHPagebuilder#create-a-theme) for detailed information on how to develop themes.

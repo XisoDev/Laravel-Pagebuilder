@@ -38,5 +38,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->publishes([
             __DIR__ . '/../themes/demo' => base_path(config('pagebuilder.theme.folder_url') . '/demo'),
         ], 'demo-theme');
+
+        $this->publishes([
+            __DIR__ . '/../../phpagebuilder/dist' => public_path('vendor/laravel-pagebuilder'),
+        ], 'public');
     }
 }

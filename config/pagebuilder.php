@@ -12,7 +12,7 @@ return [
     'general' => [
         'base_url' => env('APP_URL'),
         'language' => 'ko',
-        'assets_url' => '/assets',
+        'assets_url' => '/vendor/laravel-pagebuilder',
         'uploads_url' => '/uploads'
     ],
 
